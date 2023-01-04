@@ -1,0 +1,109 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    
+}
+
+*
+{
+    margin: 0;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.liens-header
+{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.liens-header:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+a
+{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.footer
+{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 50px;
+    margin: 50px 50px 0px 50px;
+ 
+}
+h2
+{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.introduction
+{
+    padding-left: 50px;
+}
+h1
+{
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+label
+{
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding:17px 18px 15px 18px;
+   
+  
+}
+form
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+#Rechercher
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;  
+    padding:15px 16px;
+}
+.bouton
+{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #0065FC;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding:15px 16px;
+}
