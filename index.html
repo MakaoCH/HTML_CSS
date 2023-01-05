@@ -12,13 +12,11 @@
 
 <body>
     <header>
-      <nav>
         <img src="images/logo/Booki.png" alt="Logo">
-          <div>
+          <nav>
             <a href="#Hébergements" class="liens-header">Hébergements</a>
-            <a href="#Activités" class="liens-header">Activités</a>
-          </div> 
-      </nav>  
+            <a href="#Activités"class="liens-header">Activités</a>
+          </nav>
     </header>
     <main>
       <section class="introduction">
@@ -29,24 +27,125 @@
               <input type="text" name="rechercher" value="Marseille, France" id="Rechercher">
               <input type="submit" value="Rechercher" class="bouton">
             </form>
+            <div class="filtres">
+              <h2>Filtres</h2>
+                  <a href="#" class="détail-filtres"><i class="fa-solid fa-money-bill-wave"></i>Economique</a>
+                  <a href="#" class="détail-filtres"><i class="fa-solid fa-person"></i>Familial</a>  
+                  <a href="#" class="détail-filtres"><i class="fa-solid fa-heart"></i>Romantique</a>
+                  <a href="#" class="détail-filtres"><i class="fa-solid fa-dog"></i>Animaux autorisés</a>
+            </div>
+          <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+      </section>
+      <section id="hébergements">
+        <h1>Hébergements à Marseille</h1>
+        <div class="vignette-hébergement">
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de la chambre de l'auberge">
+                <div class="text-sous-img">
+                  <h3>Auberge La Canebière</h3>
+                    <p>Nuit à partir de 25€</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                </div>
+            </a>
+          </div>
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                <div class="text-sous-img">
+                  <h3>Hôtel du port</h3>
+                    <p>Nuit à partir de 52€</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                </div>
+            </a>
+          </div>
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                <div class="text-sous-img">
+                  <h3>Hôtel Les mouettes</h3>
+                    <p>Nuit à partir de 76€</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                </div>
+            </a>
+          </div>
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                <div class="text-sous-img">
+                  <h3>Hôtel de la mer</h3>
+                    <p>Nuit à partir de 46€</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+          </div>
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                <div class="text-sous-img">
+                  <h3>Auberge Le Panier</h3>
+                    <p>Nuit à partir de 23€</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                </div>
+              </a>
+          </div>
+          <div class="hotel-auberge">
+            <a href="#">
+              <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                <div class="text-sous-img">
+                  <h3>Hôtel Chez Amina</h3>
+                  <p>Nuit à partir de 96€</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </a>
+          </div>
+        </div>
+        <h2>Afficher plus</h2>
+      </section>
+      <section id="Activités">
+        <h1>Activités</h1>
       </section>
     </main>
     <footer>
       <div class="footer">
         <h2>A propos</h2>
-          <a href="#">Fonctionnement du site</a>
-          <a href="#">Conditions générales</a>
-          <a href="#">Données et confidentialité</a>
+          <a href="#" class="detail-footer">Fonctionnement du site</a>
+          <a href="#" class="detail-footer">Conditions générales</a>
+          <a href="#" class="detail-footer">Données et confidentialité</a>
       </div>
       <div class="footer">
         <h2>Nos hébergements</h2>
-          <a href="#">Fonctionnement du site</a>
-          <a href="#">Proposer votre hôtel</a>
+          <a href="#" class="detail-footer">Fonctionnement du site</a>
+          <a href="#" class="detail-footer">Proposer votre hôtel</a>
       </div>
       <div class="footer">
         <h2>Assistance</h2>
-          <a href="#">Centre d'aide</a>
-          <a href="#">Nous contacter</a>
+          <a href="#" class="detail-footer">Centre d'aide</a>
+          <a href="#" class="detail-footer">Nous contacter</a>
       </div>
     </footer>
 </body>

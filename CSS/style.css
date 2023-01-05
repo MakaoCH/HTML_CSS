@@ -8,31 +8,36 @@
 *
 {
     margin: 0;
+    
 }
 
-nav
+header
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 50px 50px;
 }
 
 .liens-header
 {
-    text-decoration: none;
-    margin-right: 50px;
+    padding: 30px 50px;   
 }
 
 .liens-header:hover
 {
     color: #0065FC;
-    text-decoration: overline;
+    border-top: 3px solid #0065fc;
+  
 }
 
 a
 {
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+.detail-footer
+{
     padding-bottom: 10px;
 }
 
@@ -49,7 +54,8 @@ footer
     flex-direction: row;
     justify-content: space-around;
     background-color: #F2F2F2;
-    padding: 50px;
+    padding-top: 45px;
+    padding-bottom: 58PX;
     margin: 50px 50px 0px 50px;
  
 }
@@ -57,11 +63,14 @@ h2
 {
     font-weight: 700;
     font-size: 18px;
-    padding-bottom: 30px;
+}
+footer h2
+{
+    padding-bottom: 20px;
 }
 .introduction
 {
-    padding-left: 50px;
+    padding-left: 56px;
 }
 h1
 {
@@ -106,4 +115,119 @@ form
     font-size: 18px;
     text-align: center;
     padding:15px 16px;
+}
+.détail-filtres
+{
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #d9d9d9;
+    border-radius: 45px;
+    padding: 14px 20px;
+    margin: 15px;
+}
+.détail-filtres:hover
+{
+    background: #DEEBFF;
+}
+.fa-money-bill-wave 
+{
+    padding-right: 10px;
+    color:#0065FC;
+    font-size: 20px;
+}
+.fa-person
+{
+    padding-right: 10px;
+    color:#0065FC;
+    font-size: 20px;
+}
+.fa-heart
+{
+    padding-right: 10px;
+    color:#0065FC;
+    font-size: 20px;
+}
+.fa-dog
+{
+    padding-right: 10px;
+    color:#0065FC;
+    font-size: 20px;
+}
+.filtres
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fa-info
+{
+    border: 2px solid #d9d9d9; 
+    border-radius: 50px;
+    padding: 7px 12px;
+    color:#0065FC;
+    text-align: center;
+    margin-right: 10px;
+}
+#hébergements
+{
+    width: 880px;
+    height: 626px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 25px;
+
+}
+.hotel-auberge
+{
+    width: 256px;
+    height: 199px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin:15px;
+}
+.hotel-auberge img
+{
+    width: 246px;
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.vignette-hébergement
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#hébergements h1
+{
+    padding-left: 25px;
+}
+h3
+{
+    font-weight: 700;
+    font-size: 16px; 
+    
+}
+.hotel-auberge p
+{
+    font-weight: 400;
+    font-size: 14px; 
+   
+}
+.text-sous-img
+{
+    padding-left: 16px;
+}
+
+.fa-star:nth-child(-n+6)
+{
+    color:#0065FC;
+}
+.fa-star:nth-child(7)
+{
+    color:#F2F2F2;
 }
