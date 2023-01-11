@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <title>Booki</title>
     <script src="https://kit.fontawesome.com/d6865703d8.js" crossorigin="anonymous"></script>
     <link href="CSS/style.css" rel="stylesheet" >
@@ -12,11 +13,13 @@
 
 <body>
     <header>
+      <nav>
         <img src="images/logo/Booki.png" alt="Logo">
-          <nav>
+          <div>
             <a href="#Hébergements" class="liens-header">Hébergements</a>
             <a href="#Activités"class="liens-header">Activités</a>
-          </nav>
+          </div>
+      </nav>
     </header>
     <main>
       
@@ -25,15 +28,18 @@
           <p>En plein centre-ville ou en pleine nature</p>
             <form method="get" action="">
               <label for="Rechercher"><i class="fa-solid fa-location-dot"></i></label>
-              <input type="text" name="rechercher" value="Marseille, France" id="Rechercher">
-              <input type="submit" value="Rechercher" class="bouton">
+              <input type="text" name="Rechercher" value="Marseille, France" id="Rechercher">
+              <button type="submit" class="loupe"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <input type="submit" value="Rechercher" class="bouton"> 
             </form>
             <div class="filtres">
               <h2>Filtres</h2>
+               <div class="bloc-filtres">
                   <a href="#" class="détail-filtres"><i class="fa-solid fa-money-bill-wave"></i>Economique</a>
                   <a href="#" class="détail-filtres"><i class="fa-solid fa-person"></i>Familial</a>  
                   <a href="#" class="détail-filtres"><i class="fa-solid fa-heart"></i>Romantique</a>
                   <a href="#" class="détail-filtres"><i class="fa-solid fa-dog"></i>Animaux autorisés</a>
+                </div>
             </div>
           <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
       </section>
@@ -160,7 +166,7 @@
             <h1>Les plus populaires</h1>
             <i class="fa-solid fa-chart-line"></i>
           </div>
-            
+        <div class="vignette-populaire">
           <div class="hotel-auberge-populaire">
             <a href="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
               <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo de la chambre de l'hotel" 
@@ -220,11 +226,42 @@
             </div>
           </a>
         </div>
-         
+      </div>    
       </section>
     </div>
       <section id="Activités">
-        <h1>Activités</h1>
+        <h1>Activités à Marseille</h1>
+        <div class="Activités-flex">
+          <div class="vignettes-activités">
+          <a href="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+            <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo de la chambre d'hotes" 
+            title="Cliquez pour agrandir">
+          
+          <h3>Vieux-Port</h3>
+          </a>
+          </div>
+          <div class="vignettes-activités">
+            <a href="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+              <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo de la chambre d'hotes" 
+              title="Cliquez pour agrandir">
+            </a>
+            <h3>Fort de Pomègues</h3>
+            </div>
+          <div class="vignettes-activités">
+            <a href="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+              <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo de la chambre d'hotes" 
+              title="Cliquez pour agrandir">
+            </a>
+              <h3>Parc national des Calanques</h3>
+          </div>
+            <div class="vignettes-activités">
+              <a href="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo de la chambre d'hotes" 
+                title="Cliquez pour agrandir">
+              </a>
+              <h3>Notre-Dame-de-la-Garde</h3>
+            </div>
+          </div>
       </section>
     
     </main>
