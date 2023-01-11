@@ -37,6 +37,7 @@ h1
     font-weight: 700;
     font-size: 22px;
 }
+
 /*Header*/
 nav
 {
@@ -195,11 +196,16 @@ form
 {
     padding-bottom: 20px;
 }
+.introduction
+    {
+        margin-left: 20px;
+    }
+
 /*Hébergements à Marseille*/
 #hébergements
 {
-    width: 850px;
-    height: 650px;
+    width: 70%;
+    height: 626px;
     background: #F2F2F2;
     border-radius: 20px;
     display: flex;
@@ -233,13 +239,6 @@ form
     height: 480px; 
 }
 
-h3
-{
-    font-weight: 700;
-    font-size: 16px;
-}
-
-
 .hotel-auberge p
 {
     font-weight: 400;
@@ -254,16 +253,30 @@ h3
 {
     color:#0065FC;
     font-size: 12px;
+    padding-top: 5px;
 }
 .star i:nth-child(5)
 {
     color:#F2F2F2;
+    padding-top: 5px;
 }
 
 em
 {
     font-weight: bold;
     font-style: normal;
+}
+#hébergements h1
+{
+    padding-left: 25px;
+}
+#hébergements h2
+{
+    padding-left: 25px;
+}
+#hébergements p
+{
+    padding-top: 5px;
 }
 
 /*Les plus populaires*/
@@ -273,8 +286,6 @@ em
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-
 }
  
 .hotel-auberge-populaire
@@ -293,19 +304,19 @@ em
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
 }
 
 .Populaires
 {
-    width: 420px;
-    height: 650px;
+    width: 30%;
+    height: 626px;
     background: #F2F2F2;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;   
+    margin-left: 5%;
 }
 
 .Populaires img
@@ -327,6 +338,16 @@ em
     flex-direction: column;
     align-content: space-around;
 }
+.vignette-populaire h3 {
+    padding: 5px;
+}
+.vignette-populaire p {
+    padding: 5px;
+}
+.star {
+    padding: 5px;
+}
+
 /*regroupement*/
 .hebergements-populaires
 {
@@ -358,6 +379,8 @@ em
 }
 #Activités
 {
+    display: flex;
+    flex-direction: column;
     margin: 50px 0px;
 }
 #Activités h1{
@@ -366,6 +389,7 @@ em
 .vignettes-activités h3
 {
     padding-left: 19px;
+    padding-top: 5px;
 }
 /*Footer*/
 .detail-footer
@@ -397,10 +421,13 @@ footer h2
 }
 
 /*media queries*/
-
+/*tablette*/
 @media screen and (max-width: 992px) {
     .hebergements-populaires {
         flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        justify-content: space-between;
     }
     .vignette-populaire {
         flex-direction: row;
@@ -410,7 +437,7 @@ footer h2
         height: 278px;
     }
     .hotel-auberge-populaire {
-        width: 242px;
+        width: 252px;
         height: 144px;
     }
     .titres-populaires {
@@ -426,8 +453,26 @@ footer h2
         width: 182px;
         height: 211px;
     }
+    .hotel-auberge-populaire img {
+        width: 106px;
+        height: 134px;
+    }
+    .text-sous-img p {
+        font-size: 13px;
+    }
+    nav {
+    margin-left: 20px;
+    }
+    #Activités h1
+    {
+    margin-left: 20px;
+    }
+    #hébergements
+    {
+    width: 95%;
+    }
 }
-
+/*mobile*/
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
@@ -447,6 +492,7 @@ footer h2
    
     .hebergements-populaires {
         flex-direction: column-reverse;
+        height: 100%;
     }
     .Activités-flex {
         flex-direction: column;
@@ -484,6 +530,9 @@ footer h2
     .hotel-auberge-populaire {
         width: 334px;
         height: 144px;
+    }
+    .hotel-auberge-populaire img {
+        width: 137px;
     }
     .vignettes-activités {
         width: 335px;
@@ -529,6 +578,9 @@ footer h2
     {
         justify-content:center;
     }
+    nav {
+        margin-left: 0px;
+        }
 }
 
 
