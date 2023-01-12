@@ -45,7 +45,7 @@ nav
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 0px;
+    margin: 50px 15px;
 }
 
 .liens-header
@@ -223,7 +223,7 @@ form
 }
 .hotel-auberge
 {
-    width: 256px;
+    width: 30%;
     height: 210px;
     background: #ffffffe2;
     border-radius: 20px;
@@ -232,9 +232,9 @@ form
 }
 .hotel-auberge img
 {
-    width: 246px;
+    width: 96%;
     height: 124px;
-    border: 5px solid #FFFFFF;
+    border: 4px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;  
 }
@@ -294,18 +294,27 @@ em
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 10%;
 }
  
 .hotel-auberge-populaire
 {
     display: flex;
     flex-direction: row;
-    width: 343px;
+    width: 90%;
     height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 6px 6px 6px rgb(195, 193, 193);
     margin: auto;
+}
+.hotel-auberge-populaire img
+{
+    width: 137px;
+    height: 134px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 
 .text-coté-img
@@ -327,21 +336,14 @@ em
     
 }
 
-.Populaires img
-{
-    width: 137px;
-    height: 134px;
-    border: 5px solid #FFFFFF;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-}
+
 .titres-populaires i
 {
     color:#0065FC;
 }
 .vignette-populaire
 {
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -362,12 +364,12 @@ em
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /*activités*/
 .vignettes-activités
 {
-    width: 302px;
+    width: 22%;
     height: 444px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -375,7 +377,7 @@ em
 }
 .vignettes-activités img
 {
-    width: 302px;
+    width: 100%;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -387,10 +389,11 @@ em
     justify-content: space-between;
 }
 #Activités
-{
+{   
     display: flex;
     flex-direction: column;
-    margin: 50px 0px;
+    margin: 50px 15px;
+   
 }
 #Activités h1{
     padding-bottom: 18px;
@@ -446,7 +449,7 @@ footer h2
         height: 278px;
     }
     .hotel-auberge-populaire {
-        width: 252px;
+        width: 30%;
         height: 144px;
     }
     .titres-populaires {
@@ -454,12 +457,12 @@ footer h2
         padding: 30px 30px 0px 30px;
     }
     .vignettes-activités {
-        width: 182px;
+        width: 22%;
         height: 267px;
         margin: 15px;
     }
     .vignettes-activités img {
-        width: 182px;
+        width: 100%;
         height: 211px;
     }
     .hotel-auberge-populaire img {
@@ -479,6 +482,12 @@ footer h2
     #hébergements
     {
     width: 95%;
+    }
+    .vignette-populaire h3 {
+    padding: 1px 1px 0px 1px;
+    }
+    .vignette-populaire p {
+    padding: 1px 1px 0px 1px;
     }
    
 }
@@ -519,38 +528,37 @@ footer h2
         flex-wrap: nowrap;
         justify-content: space-between; 
         height: 1400px;
-        width: 375px;
-        align-items: center;
-        
+        width: 95%;
+        margin: auto;     
     }
     #hébergements {
         background-color: white;
         height: 1600px;
-        width: 375px;
+        width: 100%;
     }
     .hotel-auberge {
-        width: 335px;
+        width: 100%;
         border: 1px solid #e5e3e3;
        
     }
     .hotel-auberge img {
-        width: 325px;
+        width: 97%;
         
     }
     .hotel-auberge-populaire {
-        width: 334px;
+        width: 95%;
         height: 144px;
     }
     .hotel-auberge-populaire img {
         width: 137px;
     }
     .vignettes-activités {
-        width: 335px;
+        width: 100%;
         height: 190px;
         margin: 15px;
     }
     .vignettes-activités img {
-        width: 335px;
+        width: 100%;
         height: 134px;
     }
     .Populaires {
