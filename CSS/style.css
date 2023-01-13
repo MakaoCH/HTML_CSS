@@ -276,11 +276,11 @@ em
 }
 #hébergements h1
 {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 #hébergements h2
 {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 #hébergements p
 {
@@ -292,17 +292,17 @@ em
 .titres-populaires
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 10%;
+    padding: 1em;
 }
  
 .hotel-auberge-populaire
 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 144px;
     width: 90%;
-    height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 6px 6px 6px rgb(195, 193, 193);
@@ -310,7 +310,7 @@ em
 }
 .hotel-auberge-populaire img
 {
-    width: 137px;
+    width: 100%;
     height: 134px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
@@ -321,7 +321,8 @@ em
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
+    Padding: 5px 10px 0px 10px;
 }
 
 .Populaires
@@ -438,7 +439,7 @@ footer h2
     .hebergements-populaires {
         flex-direction: column;
         align-items: center;
-        height: 1000px;
+        height: 950px;
         justify-content: space-between;
     }
     .vignette-populaire {
@@ -465,10 +466,7 @@ footer h2
         width: 100%;
         height: 211px;
     }
-    .hotel-auberge-populaire img {
-        width: 106px;
-        height: 134px;
-    }
+    
     .text-sous-img p {
         font-size: 13px;
     }
@@ -533,7 +531,7 @@ footer h2
     }
     #hébergements {
         background-color: white;
-        height: 1600px;
+        height: 100%;
         width: 100%;
     }
     .hotel-auberge {
@@ -542,16 +540,14 @@ footer h2
        
     }
     .hotel-auberge img {
-        width: 97%;
+        width: 98%;
         
     }
     .hotel-auberge-populaire {
         width: 95%;
         height: 144px;
     }
-    .hotel-auberge-populaire img {
-        width: 137px;
-    }
+    
     .vignettes-activités {
         width: 100%;
         height: 190px;
@@ -605,6 +601,23 @@ footer h2
     header div
     {
         width: 100%;
+    }
+    #Activités h1
+    {
+    margin-left: 0;
+    }
+    #hébergements h1
+    {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    }
+    #hébergements h2
+    {
+    display: none;
+    }
+    header div
+    {
+    width: 100%;
     }
 }
 
